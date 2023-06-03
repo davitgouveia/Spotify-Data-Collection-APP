@@ -1,5 +1,4 @@
 import './App.css';
-import { credentials } from './credentials';
 import * as React from 'react';
 import axios from 'axios';
 
