@@ -1,0 +1,85 @@
+.App {
+}
+
+html,body {
+  background-color: #282c34;
+  margin: 0;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #191414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #1DB954;
+}
+
+.content-center {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin: 2em;
+  height: fit-content;
+  width: 100%;
+  border:3px solid #1DB954;
+  border-radius: 15px;
+  background-color: #191414;
+  
+}
+
+#msg {
+  padding-left: 1em;
+}
+
+.column {
+  display: inline;
+  padding: 10px;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+
+#login-button, #logout-button {
+  border: 2px solid #1DB954;
+  border-radius: 10px;
+  margin: 2em;
+  padding: 1em;
+  cursor: pointer;
+  background-color: #1DB954;
+  width: 200px;
+  font-weight: bolder;
+  
+}
+
+#login-button:hover, #logout-button:hover{
+  border: 2px solid white;
+  background-color: white;
+  transition: 300ms;
+}
+
+.termos-condicoes {
+  padding: 1em;
+  overflow-y: scroll;
+  height: 20em;
+}
+
+#search-button {
+  border: 2px solid #1DB954;
+  border-radius: 10px;
+  margin: 2em;
+  padding: 1em;
+  cursor: pointer;
+  background-color: #1DB954;
+  width: 150px;
+  font-weight: bolder;
+  text-align: center;
+}
