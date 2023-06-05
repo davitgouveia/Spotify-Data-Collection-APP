@@ -21,7 +21,7 @@ function downloadStringAsTxt(stringContent, fileName) {
 
 function App() {
   const CLIENT_ID = process.env.clientID
-  const REDIRECT_URI = "https://spotify-data-collection-app.vercel.app/"
+  const REDIRECT_URI = "https://spotify-data-collection-app.vercel.app"
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
   const RESPONSE_TYPE = "token"
   const SCOPE = "user-top-read"
