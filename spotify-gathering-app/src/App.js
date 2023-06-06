@@ -20,7 +20,7 @@ function downloadStringAsTxt(stringContent, fileName) {
 }
 
 function App() {
-  // const CLIENT_ID = process.env.clientID
+  const CLIENT_ID = 'e05945f608804751ac5a29e19755acef'
   const REDIRECT_URI = "https://spotify-data-collection-app.vercel.app/"
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
   const RESPONSE_TYPE = "token"
@@ -48,7 +48,7 @@ function App() {
   }, [])
 
   function login() {
-    window.location.href = `${AUTH_ENDPOINT}?client_id=${process.env.CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}&scope=${SCOPE}`;
+    window.location.href = `${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}&scope=${SCOPE}`;
   }
 
   const logout = () => {
