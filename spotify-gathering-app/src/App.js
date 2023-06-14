@@ -99,7 +99,7 @@ function App() {
               <button onClick={login} id="login-button">Login to Spotify</button>
               : <button onClick={logout} id="logout-button">Logout</button>}
           </div>
-          <h1 id='msg'>Por favor, envie o arquivo baixado para: davi.gouveia@aluno.ifsp.edu.br</h1>
+          <h1 id='msg'>Por favor, envie o arquivo baixado para: <a href='https://mail.google.com/mail/?view=cm&source=mailto&to=davi.gouveia@aluno.ifsp.edu.br' target='_blank'>davi.gouveia@aluno.ifsp.edu.br</a></h1>
 
           {token ?
             <div onClick={searchTopTracks} id="search-button">Baixar arquivo</div>
